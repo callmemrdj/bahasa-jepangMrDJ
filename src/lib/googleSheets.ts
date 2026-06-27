@@ -72,7 +72,7 @@
  * Jika tidak ada URL yang di-set, aplikasi akan menggunakan sample data (mode demo).
  */
 
-export const GOOGLE_SCRIPT_URL = ""; // <-- Paste URL Web App Google Script di sini
+export const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbz_dZW8FD7p4S42m7hGNka-K8qF90xg9GLxv-kC8rJBqJvjarvuiKPzEDg3ejlZpvLbQg/exec'; // <-- Paste URL Web App Google Script di sini
 
 export interface Question {
   id: number;
@@ -104,183 +104,183 @@ export interface QuizResult {
 const SAMPLE_QUESTIONS: Question[] = [
   {
     id: 1,
-    soal: "Apa ibu kota negara Indonesia?",
-    pilihan_a: "Surabaya",
-    pilihan_b: "Jakarta",
-    pilihan_c: "Bandung",
-    pilihan_d: "Yogyakarta",
-    jawaban: "B",
+    soal: 'Apa ibu kota negara Indonesia?',
+    pilihan_a: 'Surabaya',
+    pilihan_b: 'Jakarta',
+    pilihan_c: 'Bandung',
+    pilihan_d: 'Yogyakarta',
+    jawaban: 'B',
   },
   {
     id: 2,
-    soal: "Berapa hasil dari 15 + 27?",
-    pilihan_a: "40",
-    pilihan_b: "41",
-    pilihan_c: "42",
-    pilihan_d: "43",
-    jawaban: "C",
+    soal: 'Berapa hasil dari 15 + 27?',
+    pilihan_a: '40',
+    pilihan_b: '41',
+    pilihan_c: '42',
+    pilihan_d: '43',
+    jawaban: 'C',
   },
   {
     id: 3,
-    soal: "Siapa presiden pertama Indonesia?",
-    pilihan_a: "Soeharto",
-    pilihan_b: "B.J. Habibie",
-    pilihan_c: "Soekarno",
-    pilihan_d: "Megawati",
-    jawaban: "C",
+    soal: 'Siapa presiden pertama Indonesia?',
+    pilihan_a: 'Soeharto',
+    pilihan_b: 'B.J. Habibie',
+    pilihan_c: 'Soekarno',
+    pilihan_d: 'Megawati',
+    jawaban: 'C',
   },
   {
     id: 4,
-    soal: "Planet apa yang dijuluki Planet Merah?",
-    pilihan_a: "Venus",
-    pilihan_b: "Jupiter",
-    pilihan_c: "Saturnus",
-    pilihan_d: "Mars",
-    jawaban: "D",
+    soal: 'Planet apa yang dijuluki Planet Merah?',
+    pilihan_a: 'Venus',
+    pilihan_b: 'Jupiter',
+    pilihan_c: 'Saturnus',
+    pilihan_d: 'Mars',
+    jawaban: 'D',
   },
   {
     id: 5,
-    soal: "Hewan pemakan daun disebut juga dengan istilah?",
-    pilihan_a: "Karnivora",
-    pilihan_b: "Omnivora",
-    pilihan_c: "Herbivora",
-    pilihan_d: "Insektivora",
-    jawaban: "C",
+    soal: 'Hewan pemakan daun disebut juga dengan istilah?',
+    pilihan_a: 'Karnivora',
+    pilihan_b: 'Omnivora',
+    pilihan_c: 'Herbivora',
+    pilihan_d: 'Insektivora',
+    jawaban: 'C',
   },
   {
     id: 6,
-    soal: "Bahasa pemrograman yang digunakan untuk styling halaman web adalah?",
-    pilihan_a: "HTML",
-    pilihan_b: "JavaScript",
-    pilihan_c: "CSS",
-    pilihan_d: "PHP",
-    jawaban: "C",
+    soal: 'Bahasa pemrograman yang digunakan untuk styling halaman web adalah?',
+    pilihan_a: 'HTML',
+    pilihan_b: 'JavaScript',
+    pilihan_c: 'CSS',
+    pilihan_d: 'PHP',
+    jawaban: 'C',
   },
   {
     id: 7,
-    soal: "Berapa jumlah provinsi di Indonesia saat ini?",
-    pilihan_a: "34",
-    pilihan_b: "37",
-    pilihan_c: "38",
-    pilihan_d: "39",
-    jawaban: "C",
+    soal: 'Berapa jumlah provinsi di Indonesia saat ini?',
+    pilihan_a: '34',
+    pilihan_b: '37',
+    pilihan_c: '38',
+    pilihan_d: '39',
+    jawaban: 'C',
   },
   {
     id: 8,
-    soal: "Simbol kimia untuk air adalah?",
-    pilihan_a: "O2",
-    pilihan_b: "CO2",
-    pilihan_c: "H2O",
-    pilihan_d: "NaCl",
-    jawaban: "C",
+    soal: 'Simbol kimia untuk air adalah?',
+    pilihan_a: 'O2',
+    pilihan_b: 'CO2',
+    pilihan_c: 'H2O',
+    pilihan_d: 'NaCl',
+    jawaban: 'C',
   },
   {
     id: 9,
-    soal: "Pulau terbesar di Indonesia adalah?",
-    pilihan_a: "Jawa",
-    pilihan_b: "Sumatera",
-    pilihan_c: "Kalimantan",
-    pilihan_d: "Papua",
-    jawaban: "D",
+    soal: 'Pulau terbesar di Indonesia adalah?',
+    pilihan_a: 'Jawa',
+    pilihan_b: 'Sumatera',
+    pilihan_c: 'Kalimantan',
+    pilihan_d: 'Papua',
+    jawaban: 'D',
   },
   {
     id: 10,
-    soal: "Tahun berapa Indonesia merdeka?",
-    pilihan_a: "1942",
-    pilihan_b: "1945",
-    pilihan_c: "1948",
-    pilihan_d: "1950",
-    jawaban: "B",
+    soal: 'Tahun berapa Indonesia merdeka?',
+    pilihan_a: '1942',
+    pilihan_b: '1945',
+    pilihan_c: '1948',
+    pilihan_d: '1950',
+    jawaban: 'B',
   },
   {
     id: 11,
-    soal: "Siapa penemu lampu pijar?",
-    pilihan_a: "Nikola Tesla",
-    pilihan_b: "Alexander Graham Bell",
-    pilihan_c: "Thomas Edison",
-    pilihan_d: "Albert Einstein",
-    jawaban: "C",
+    soal: 'Siapa penemu lampu pijar?',
+    pilihan_a: 'Nikola Tesla',
+    pilihan_b: 'Alexander Graham Bell',
+    pilihan_c: 'Thomas Edison',
+    pilihan_d: 'Albert Einstein',
+    jawaban: 'C',
   },
   {
     id: 12,
-    soal: "Mata uang negara Jepang adalah?",
-    pilihan_a: "Won",
-    pilihan_b: "Yuan",
-    pilihan_c: "Yen",
-    pilihan_d: "Ringgit",
-    jawaban: "C",
+    soal: 'Mata uang negara Jepang adalah?',
+    pilihan_a: 'Won',
+    pilihan_b: 'Yuan',
+    pilihan_c: 'Yen',
+    pilihan_d: 'Ringgit',
+    jawaban: 'C',
   },
   {
     id: 13,
-    soal: "Hewan tercepat di dunia adalah?",
-    pilihan_a: "Singa",
-    pilihan_b: "Cheetah",
-    pilihan_c: "Kuda",
-    pilihan_d: "Elang",
-    jawaban: "B",
+    soal: 'Hewan tercepat di dunia adalah?',
+    pilihan_a: 'Singa',
+    pilihan_b: 'Cheetah',
+    pilihan_c: 'Kuda',
+    pilihan_d: 'Elang',
+    jawaban: 'B',
   },
   {
     id: 14,
-    soal: "Berapakah akar kuadrat dari 144?",
-    pilihan_a: "10",
-    pilihan_b: "11",
-    pilihan_c: "12",
-    pilihan_d: "14",
-    jawaban: "C",
+    soal: 'Berapakah akar kuadrat dari 144?',
+    pilihan_a: '10',
+    pilihan_b: '11',
+    pilihan_c: '12',
+    pilihan_d: '14',
+    jawaban: 'C',
   },
   {
     id: 15,
-    soal: "Samudra terluas di dunia adalah?",
-    pilihan_a: "Atlantik",
-    pilihan_b: "Hindia",
-    pilihan_c: "Pasifik",
-    pilihan_d: "Arktik",
-    jawaban: "C",
+    soal: 'Samudra terluas di dunia adalah?',
+    pilihan_a: 'Atlantik',
+    pilihan_b: 'Hindia',
+    pilihan_c: 'Pasifik',
+    pilihan_d: 'Arktik',
+    jawaban: 'C',
   },
   {
     id: 16,
-    soal: "Alat musik tradisional dari Jawa Barat adalah?",
-    pilihan_a: "Gamelan",
-    pilihan_b: "Angklung",
-    pilihan_c: "Sasando",
-    pilihan_d: "Tifa",
-    jawaban: "B",
+    soal: 'Alat musik tradisional dari Jawa Barat adalah?',
+    pilihan_a: 'Gamelan',
+    pilihan_b: 'Angklung',
+    pilihan_c: 'Sasando',
+    pilihan_d: 'Tifa',
+    jawaban: 'B',
   },
   {
     id: 17,
-    soal: "Zat hijau daun pada tumbuhan disebut?",
-    pilihan_a: "Kloroplas",
-    pilihan_b: "Klorofil",
-    pilihan_c: "Stomata",
-    pilihan_d: "Xilem",
-    jawaban: "B",
+    soal: 'Zat hijau daun pada tumbuhan disebut?',
+    pilihan_a: 'Kloroplas',
+    pilihan_b: 'Klorofil',
+    pilihan_c: 'Stomata',
+    pilihan_d: 'Xilem',
+    jawaban: 'B',
   },
   {
     id: 18,
-    soal: "Berapa jumlah kaki pada serangga?",
-    pilihan_a: "4",
-    pilihan_b: "6",
-    pilihan_c: "8",
-    pilihan_d: "10",
-    jawaban: "B",
+    soal: 'Berapa jumlah kaki pada serangga?',
+    pilihan_a: '4',
+    pilihan_b: '6',
+    pilihan_c: '8',
+    pilihan_d: '10',
+    jawaban: 'B',
   },
   {
     id: 19,
     soal: "Siapa penulis novel 'Laskar Pelangi'?",
-    pilihan_a: "Tere Liye",
-    pilihan_b: "Andrea Hirata",
-    pilihan_c: "Dewi Lestari",
-    pilihan_d: "Pramoedya Anung Toer",
-    jawaban: "B",
+    pilihan_a: 'Tere Liye',
+    pilihan_b: 'Andrea Hirata',
+    pilihan_c: 'Dewi Lestari',
+    pilihan_d: 'Pramoedya Anung Toer',
+    jawaban: 'B',
   },
   {
     id: 20,
-    soal: "Organ tubuh manusia yang berfungsi memompa darah adalah?",
-    pilihan_a: "Paru-paru",
-    pilihan_b: "Hati",
-    pilihan_c: "Ginjal",
-    pilihan_d: "Jantung",
-    jawaban: "D",
+    soal: 'Organ tubuh manusia yang berfungsi memompa darah adalah?',
+    pilihan_a: 'Paru-paru',
+    pilihan_b: 'Hati',
+    pilihan_c: 'Ginjal',
+    pilihan_d: 'Jantung',
+    jawaban: 'D',
   },
 ];
 
@@ -295,8 +295,8 @@ export async function fetchQuestions(): Promise<Question[]> {
   try {
     const url = `${GOOGLE_SCRIPT_URL}?action=getQuestions&t=${Date.now()}`;
     const response = await fetch(url, {
-      method: "GET",
-      redirect: "follow",
+      method: 'GET',
+      redirect: 'follow',
     });
 
     if (!response.ok) {
@@ -307,9 +307,9 @@ export async function fetchQuestions(): Promise<Question[]> {
     if (data && data.questions && Array.isArray(data.questions)) {
       return data.questions;
     }
-    throw new Error("Format data tidak valid");
+    throw new Error('Format data tidak valid');
   } catch (err) {
-    console.warn("Gagal mengambil soal dari Google Sheets, menggunakan sample data:", err);
+    console.warn('Gagal mengambil soal dari Google Sheets, menggunakan sample data:', err);
     return SAMPLE_QUESTIONS;
   }
 }
@@ -318,23 +318,23 @@ export async function saveResult(result: QuizResult): Promise<boolean> {
   // Jika URL belum di-set, simpan ke localStorage sebagai fallback
   if (!GOOGLE_SCRIPT_URL) {
     try {
-      const existing = JSON.parse(localStorage.getItem("quiz_results") || "[]");
+      const existing = JSON.parse(localStorage.getItem('quiz_results') || '[]');
       existing.push({
         timestamp: new Date().toISOString(),
         ...result,
       });
-      localStorage.setItem("quiz_results", JSON.stringify(existing));
-      console.log("Hasil tersimpan di localStorage (mode demo):", result);
+      localStorage.setItem('quiz_results', JSON.stringify(existing));
+      console.log('Hasil tersimpan di localStorage (mode demo):', result);
       return true;
     } catch (err) {
-      console.error("Gagal menyimpan ke localStorage:", err);
+      console.error('Gagal menyimpan ke localStorage:', err);
       return false;
     }
   }
 
   try {
     const params = new URLSearchParams({
-      action: "saveResult",
+      action: 'saveResult',
       timestamp: new Date().toISOString(),
       nama: result.nama,
       benar: String(result.benar),
@@ -355,23 +355,23 @@ export async function saveResult(result: QuizResult): Promise<boolean> {
     const timeoutId = setTimeout(() => controller.abort(), 8000);
 
     await fetch(url, {
-      method: "GET",
-      mode: "no-cors",
+      method: 'GET',
+      mode: 'no-cors',
       signal: controller.signal,
     });
 
     clearTimeout(timeoutId);
     return true;
   } catch (err) {
-    console.error("Gagal menyimpan hasil ke Google Sheets:", err);
+    console.error('Gagal menyimpan hasil ke Google Sheets:', err);
     // Fallback: simpan ke localStorage
     try {
-      const existing = JSON.parse(localStorage.getItem("quiz_results") || "[]");
+      const existing = JSON.parse(localStorage.getItem('quiz_results') || '[]');
       existing.push({
         timestamp: new Date().toISOString(),
         ...result,
       });
-      localStorage.setItem("quiz_results", JSON.stringify(existing));
+      localStorage.setItem('quiz_results', JSON.stringify(existing));
     } catch {}
     return false;
   }
